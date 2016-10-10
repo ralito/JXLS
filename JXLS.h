@@ -9,10 +9,6 @@
 
 #import <Foundation/Foundation.h>
 
-#ifdef COCOAPODS
-
-#endif
-
 #if (TARGET_OS_IPHONE || defined(COCOAPODS_POD_AVAILABLE_JXLS))
 #import "common/xlstypes.h"
 #import "xlslib.h"
